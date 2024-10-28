@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace App
+namespace Glowne
 {
     /// <summary>
     /// Logika interakcji dla klasy MainWindow.xaml
@@ -46,6 +46,11 @@ namespace App
         private void btnTime_MouseLeave(object sender, MouseEventArgs e)
         {
             btnTime.Content = "Czas";
+        }
+
+        private void btnActivate_Click(object sender, RoutedEventArgs e)
+        {
+            btnStart.IsEnabled = true;
         }
     }
 }
