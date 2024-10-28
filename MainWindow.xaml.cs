@@ -40,5 +40,10 @@ namespace App
             DateTime data = DateTime.Now;
             btnTime.Content = data.ToString("T");
         }
+
+        private void btnTime_MouseLeave(object sender, MouseEventArgs e)
+        {
+            btnTime.Content = "Czas";
+        }
     }
 }
