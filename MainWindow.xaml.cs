@@ -27,9 +27,9 @@ namespace App
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-            btnStart.Opacity = 0.5;
+            btnStart.Visibility = Visibility.Hidden;
             MessageBox.Show("Witaj świecie");
-            btnStart.Opacity = 1;
+            btnStart.Visibility = Visibility.Visible;
         }
 
         private void btnTime_Click(object sender, RoutedEventArgs e)
