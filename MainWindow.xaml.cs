@@ -24,5 +24,10 @@ namespace App
         {
             InitializeComponent();
         }
+
+        private void btnStart_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Witaj świecie");
+        }
     }
 }
