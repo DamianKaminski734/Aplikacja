@@ -9,9 +9,9 @@
     <Grid>
 
         <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left"
-Height="60" Margin="75,50,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="26.667" Click="btnStart_Click"/>
+Height="60" Margin="75,50,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="26.667" Click="btnStart_Click" Background="#FF59AF6E" BorderBrush="#FF040000" Foreground="#FFF7F7F7"/>
 
         <Button x:Name="btnTime" Content="Czas" HorizontalAlignment="Left" Height="60" Margin="75,150,0,0" VerticalAlignment="Top" Width="135"
-FontFamily="Times New Roman" FontSize="26.667" FontWeight="Bold"/>
+FontFamily="Times New Roman" FontSize="26.667" FontWeight="Bold" Click="btnTime_Click" MouseEnter="btnTime_MouseEnter" MouseLeave="btnTime_MouseLeave"/>
     </Grid>
 </Window>
