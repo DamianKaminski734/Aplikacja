@@ -15,5 +15,10 @@ Height="60" Margin="75,50,0,0" VerticalAlignment="Top" Width="135" FontFamily="T
 FontFamily="Times New Roman" FontSize="26.667" FontWeight="Bold" Click="btnTime_Click" MouseEnter="btnTime_MouseEnter" MouseLeave="btnTime_MouseLeave"/>
         <Button x:Name="btnActivate" Content="Aktywuj" HorizontalAlignment="Left"
             Height="60" Margin="265,285,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="26.667" Click="btnActivate_Click" Background="purple" BorderBrush="#FF040000" Foreground="#FFF7F7F7"/>
+        <Label Content="Czy chcesz podwyżkę?" Margin="448,62,70,284" FontSize="26.667"/>
+        <Button x:Name="btnNo" Content="Nie" HorizontalAlignment="Left"
+            Height="60" Margin="421,178,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="26.667" Click="btnNo_Click" Background="Blue" BorderBrush="#FF040000" Foreground="#FFF7F7F7"/>
+        <Button x:Name="btnYes" Content="Tak" HorizontalAlignment="Left"
+            Height="60" Margin="595,178,0,0" VerticalAlignment="Top" Width="135" FontFamily="Times New Roman" FontSize="26.667" Click="btnYes_Click" Background="Blue" BorderBrush="#FF040000" Foreground="#FFF7F7F7"/>
     </Grid>
 </Window>

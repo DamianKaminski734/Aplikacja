@@ -52,5 +52,31 @@ namespace Glowne
         {
             btnStart.IsEnabled = true;
         }
+
+        private void btnNo_Click(object sender, RoutedEventArgs e)
+        {
+            if(btnNo.Content == "Nie")
+            {
+                MessageBox.Show("Bardzo dobrze");
+            } 
+            else
+            {
+                btnNo.Content = "Nie";
+                btnYes.Content = "Tak";
+            }
+        }
+
+        private void btnYes_Click(object sender, RoutedEventArgs e)
+        {
+            if(btnYes.Content == "Nie")
+            {
+                MessageBox.Show("Bardzo dobrze");
+            } 
+            else
+            {
+                btnNo.Content = "Tak";
+                btnYes.Content = "Nie";
+            }
+        }
     }
 }
