@@ -29,5 +29,16 @@ namespace App
         {
             MessageBox.Show("Witaj świecie");
         }
+
+        private void btnTime_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTime_MouseEnter(object sender, MouseEventArgs e)
+        {
+            DateTime data = DateTime.Now;
+            btnTime.Content = data.ToString("T");
+        }
     }
 }
